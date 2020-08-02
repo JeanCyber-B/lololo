@@ -1,13 +1,13 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "47c5ec62-d50c-11ea-b781-f4066945edfd",
-    "deck_config_uuid": "47c5ec63-d50c-11ea-a3b4-f4066945edfd",
+    "crowdanki_uuid": "6b6ff47b-d50d-11ea-8924-f4066945edfd",
+    "deck_config_uuid": "6b6ff47c-d50d-11ea-b8fa-f4066945edfd",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "47c5ec63-d50c-11ea-a3b4-f4066945edfd",
+            "crowdanki_uuid": "6b6ff47c-d50d-11ea-b8fa-f4066945edfd",
             "dyn": false,
             "lapse": {
                 "delays": [
@@ -56,6 +56,73 @@
     "extendRev": 0,
     "media_files": [],
     "name": "Test",
-    "note_models": [],
-    "notes": []
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "f4dc00fe-d4a9-11ea-84d3-f4066945edfd",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n/*Start of style added by resize image add-on. Don't edit directly or the edition will be lost. Edit via the add-on configuration */\n.mobile .card img {height:unset  !important; width:unset  !important;}\n/*End of style added by resize image add-on*/",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Recto",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Verso",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "dzqdqz",
+                ""
+            ],
+            "guid": "rTfp/HAWbn",
+            "note_model_uuid": "f4dc00fe-d4a9-11ea-84d3-f4066945edfd",
+            "tags": []
+        }
+    ]
 }
